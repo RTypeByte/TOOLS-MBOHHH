@@ -1,0 +1,7 @@
+[ N8N AUTO SETUP ]
+Gunakan ini jika eror :v
+  $ cd /opt/n8n
+  $ docker-compose down
+  $ chown -R 1000:1000 /opt/n8n
+  $ chmod -R 700 /opt/n8n/data/n8n
+  $ docker-compose up -d
